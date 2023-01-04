@@ -1,4 +1,4 @@
-# Horloge-quartz-avec-affichage-des-secondes-par-60-leds
+# Horloge quartz avec affichage des secondes par 60 leds
 
 Dans le cadre de notre première année du cycle ingénieurs Génie 
 Électrique  à l'ENSA Khouribga, monsieur Mohamed Massour El Aoud nous est proposé un projet de fin de module nous permettant de mettre en
