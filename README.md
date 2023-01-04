@@ -11,4 +11,4 @@ avec un bouton poussoir qui règle les minutes, et un autre les heures.
 
 
 
-![alt text](https://www.linkpicture.com/q/horloge02.jpeg)
+![alt text](https://www.linkpicture.com/q/horloge02.jpeg) ![alt text](https://www.linkpicture.com/q/horloge03.jpeg)
