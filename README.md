@@ -6,3 +6,4 @@ pratique nos connaissances et nos compétences professionnelles
 ayant pour finalité la conception d'une horloge à quartz avec affichage des secondes par 60 leds
 À l'aide d'un microcontrôleur, je réalise une horloge à quartz parfaitement classique,
 avec un bouton poussoir qui règle les minutes, et un autre les heures.
+![alt text](http://url/to/img.png)
