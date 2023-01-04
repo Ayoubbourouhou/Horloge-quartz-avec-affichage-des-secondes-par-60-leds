@@ -13,6 +13,6 @@ avec un bouton poussoir qui règle les minutes, et un autre les heures.
 
 ![alt text](https://www.linkpicture.com/q/horloge02.jpeg) ![alt text](https://www.linkpicture.com/q/horloge03.jpeg)
 
-# Resume 
+# Résumé
 
 horloge numérique qui affiche l'heure sur quatre écrans à 7 segments. L'heure peut être réglée à l'aide de deux boutons poussoirs. L'horloge utilise un microcontrôleur PIC 16F84A et est écrite en langage assembleur. Le code comprend une routine de gestion des interruptions, qui se produisent tous les 1/256e de seconde et sont utilisées pour suivre l'heure. Le code comprend également diverses macros et variables utilisées dans le programme.
