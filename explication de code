@@ -1,0 +1,17 @@
+Le code commence par déclarer le type de processeur et inclure le fichier d'en-tête spécifique au processeur. Il définit ensuite les bits de configuration du microcontrôleur à l'aide de la directive __config. Les bits de configuration déterminent comment le microcontrôleur se comportera après la réinitialisation. Dans ce cas, les bits de configuration désactivent la protection de code, le timer de chien de garde et le timer de mise sous tension. Ils activent également l'oscillateur haute vitesse.
+
+Le code définit deux macros, bank1 et bank0, qui sont utilisées pour commuter entre les deux banques de mémoire du microcontrôleur.
+
+Le code déclare plusieurs variables dans la section CBLOCK. Ces variables sont utilisées pour stocker le numéro d'affichage actif, les chiffres codés en BCD pour chaque affichage, les drapeaux pour le débouclage par bouton-poussoir, les compteurs pour le débouclage et les secondes, et le chiffre actif actuel.
+
+Le code définit le vecteur de réinitialisation à l'adresse 0x0000 et le configure pour sauter à l'étiquette d'initialisation.
+
+Le code définit le vecteur d'interruption à l'adresse 0x0004 et le fait sauter à l'étiquette d'interruption.
+
+L'étiquette d'initialisation est l'endroit où le microcontrôleur est configuré pour être utilisé comme un timer et où les interruptions sont activées.
+
+Le code configure ensuite les boutons-poussoirs et les afficheurs à 7 segments pour l'entrée et la sortie, respectivement.
+
+Le code entre dans une boucle infinie où il attend que des interruptions se produisent. Lorsqu'une interruption se produit, le programme saute à l'étiquette d'interruption où le timer est remis à zéro et les compteurs sont incrémentés. Le code vérifie ensuite les boutons-poussoirs et met à jour le temps en conséquence. Enfin, le code met à jour les écrans avec la nouvelle heure.
+
+Le code comprend également plusieurs sous-routines pour l'affichage des chiffres codés en BCD sur les afficheurs à 7 segments et pour le débruitage des boutons-poussoirs.
