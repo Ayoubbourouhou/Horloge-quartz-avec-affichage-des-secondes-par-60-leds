@@ -19,8 +19,12 @@ horloge numérique affiche l'heure sur quatre écrans à 7 segments. L'heure peu
 
 # Ressources
 
-fabrice.sincere.pagesperso-orange.fr/cm_electronique/projet_pic/de_sonore/de_sonore.htm
+:clock1: fabrice.sincere.pagesperso-orange.fr/cm_electronique/projet_pic/de_sonore/de_sonore.htm
+
 www.tutorialspoint.com/assembly_programming/assembly_tutorial.pdf
+
 abrice.sincere.pagesperso-orange.fr/cm_electronique/projet_pic/horloge/horloge.htm
+
 chat.openai.com
+
 www.alldatasheet.com
